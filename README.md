@@ -27,6 +27,12 @@ nestor.login(email, password);
 nestor.getProfile();
 ```
 
+### Update profile
+
+```javascript
+nestor.updateProfile({lastName, firstName, email, phone});
+```
+
 ### Get Stripe profile
 
 ```javascript
